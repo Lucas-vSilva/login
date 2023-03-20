@@ -1,0 +1,68 @@
+body{
+    background-image: url("../img/caminhao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    background-attachment: fixed;
+    text-align: center;
+   
+}
+
+
+
+#campocliente{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 650px;
+    background: #ffffff10;
+    border: 2px solid #ffffff30;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+input{
+    margin-top: 10px;
+    height: 11px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;    
+}
+
+#butCadastro{
+    
+    width: 100px;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+#loguinho{ /** Logo **/
+	color: #123f64;
+    font-size: 35px;
+	text-decoration: none;
+ 
+}
